@@ -17,6 +17,9 @@
 		D4B750171F5AD4DF00608A80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4B750161F5AD4DF00608A80 /* Assets.xcassets */; };
 		D4B7501A1F5AD4DF00608A80 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D4B750181F5AD4DF00608A80 /* LaunchScreen.storyboard */; };
 		D4B750221F5ADC7D00608A80 /* Skater.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4B750211F5ADC7D00608A80 /* Skater.swift */; };
+		D4EB14C41F617371006A55EC /* gem.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4EB14C21F616E2E006A55EC /* gem.wav */; };
+		D4EB14C51F617376006A55EC /* jump.wav in Resources */ = {isa = PBXBuildFile; fileRef = D4EB14C11F616E2E006A55EC /* jump.wav */; };
+		D4EB14C71F61744F006A55EC /* sparks.sks in Resources */ = {isa = PBXBuildFile; fileRef = D4EB14C61F61744F006A55EC /* sparks.sks */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +37,7 @@
 		D4B750211F5ADC7D00608A80 /* Skater.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Skater.swift; sourceTree = "<group>"; };
 		D4EB14C11F616E2E006A55EC /* jump.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = jump.wav; sourceTree = "<group>"; };
 		D4EB14C21F616E2E006A55EC /* gem.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = gem.wav; sourceTree = "<group>"; };
+		D4EB14C61F61744F006A55EC /* sparks.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = sparks.sks; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +83,7 @@
 				D4B7501B1F5AD4DF00608A80 /* Info.plist */,
 				D4B750211F5ADC7D00608A80 /* Skater.swift */,
 				D45981B81F601B9D003DB627 /* MenuLayer.swift */,
+				D4EB14C61F61744F006A55EC /* sparks.sks */,
 			);
 			path = SchoolhouseSkateboarder;
 			sourceTree = "<group>";
@@ -143,9 +148,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D4EB14C41F617371006A55EC /* gem.wav in Resources */,
 				D4B750151F5AD4DF00608A80 /* Main.storyboard in Resources */,
 				D4B7500C1F5AD4DF00608A80 /* GameScene.sks in Resources */,
+				D4EB14C51F617376006A55EC /* jump.wav in Resources */,
 				D4B750171F5AD4DF00608A80 /* Assets.xcassets in Resources */,
+				D4EB14C71F61744F006A55EC /* sparks.sks in Resources */,
 				D4B7501A1F5AD4DF00608A80 /* LaunchScreen.storyboard in Resources */,
 				D4B7500E1F5AD4DF00608A80 /* Actions.sks in Resources */,
 			);
